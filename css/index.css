@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+.main {
+  position: relative;
+  background-color: #5CA05C;
+  height: 100vh;
+}
+
+.main__wrap {
+  max-width: calc(500px + 40px);
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.main__p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.main__num {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.click_btn {
+  margin-top: 10px;
+  width: 100%;
+  height: 100px;
+  background-color: #3e6d3e;
+  font-size: 1.125rem;
+  color: #fff;
+  border-radius: 10px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="Keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title></title>
+    <link rel="shortcut icon" href="./img/common/favicon.ico">
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+
+<body>
+    <main class="main">
+        <div id="app" class="main__wrap">
+            <p class="main__p"><span class="main__num">{{ number }}</span>回押した</p>
+            <button class="click_btn" v-on:click="number += 1">カウントアップ</button>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="./js/common.js"></script>
+</body>
+
+</html>
